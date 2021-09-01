@@ -1,17 +1,17 @@
 ### Site Settings ###
 title               : Jeong-Hoon Lee
 description         : >-
-                      I turn coffee :coffee: into code,
-                      use tabs over spaces
-                      and never broke production.
+                      HI!
 baseurl             : ""                     # Change to empty quotes if you are hosting your site at <your-username>.github.io directly
 repository          : TMmichi/TMmichi.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
+# :coffee:
 
 ### Plugins ###
 plugins:
   - jemoji
+  - jekyll-figure
 
 
 ### Navbar Settings ###
@@ -26,26 +26,26 @@ nav_exclude:                                            # The following paths ar
 ### Author Info ###
 author:
   name              : Jeong-Hoon Lee
-  image             : https://i.imgur.com/uyDNQnn.jpg
-  # behance           : your_username
-# dribbble          : your_username
+  image             : /assets/34.jpg
   email             : ljh_0921@yonsei.ac.kr
-  # facebook          : your_username
   github            : TMmichi
-# gitlab            : your_username
-# instagram         : your_username
-# kaggle            : your_username
+  # behance           : your_username
+  # dribbble          : your_username
+  # facebook          : your_username
+  # gitlab            : your_username
+  # instagram         : your_username
+  # kaggle            : your_username
   # linkedin          : your_username
   # medium            : your_username
-# soundcloud        : your_username
-# spotify           : your_username
-# stackoverflow     : your_user_id
-# tumblr            : your_username.tumblr.com
-# twitch            : your_username
+  # soundcloud        : your_username
+  # spotify           : your_username
+  # stackoverflow     : your_user_id
+  # tumblr            : your_username.tumblr.com
+  # twitch            : your_username
   # twitter           : your_username
-# vimeo             : your_username
-# youtube           : your_channel_name
-# keybase           : your_username
+  # vimeo             : your_username
+  # youtube           : your_channel_name
+  # keybase           : your_username
 
 ## Timeline ##
 timeline: false  # Add timeline to about page
@@ -65,15 +65,15 @@ collections:
 
 
 ### Disqus ###
-disqus:
-  shortname: your-short-name-disqus                     # Your website Shortname on disqus
+# disqus:
+#   shortname: your-short-name-disqus                     # Your website Shortname on disqus
 
 
 ### Analytics ###
-analytics:
-  enabled: false                                        # Set true to enable analytics
-  google:
-    tracking_id: your-google-tracking-id
+# analytics:
+#   enabled: false                                        # Set true to enable analytics
+#   google:
+#     tracking_id: your-google-tracking-id
 
 
 ### Defaults for collections ###
@@ -88,11 +88,11 @@ defaults:
   #     type: "elements"                                  # For Documentation Only
   #   values:                                             # For Documentation Only
   #     layout: "element"                                 # For Documentation Only
-  - scope:
-      path: ""
-      type: "posts"
-    values:
-      comments: false                                   # Set to true to enable disqus comments
+  # - scope:
+  #     path: ""
+  #     type: "posts"
+  #   values:
+  #     comments: false                                   # Set to true to enable disqus comments
 
 ### Exclude from processing ###
 exclude:
