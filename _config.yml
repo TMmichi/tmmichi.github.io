@@ -6,7 +6,7 @@ baseurl             : ""                     # Change to empty quotes if you are
 repository          : TMmichi/TMmichi.github.io     # Change to <your-username>/<your-username>.github.io (or remove it if you don't need remote projects)
 remote_theme        : YoussefRaafatNasry/portfolYOU
 
-# :coffee:
+:coffee:
 
 ### Plugins ###
 plugins:
